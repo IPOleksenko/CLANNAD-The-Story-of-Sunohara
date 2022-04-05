@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="makefile\main.cpp" />
+    <ClCompile Include="makefile\GameMenu.cpp" />
+    <ClCompile Include="makefile\Settings.cpp" />
+    <ClCompile Include="makefile\Game.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+    <None Include="DATA\config.json" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="resource.h" />
+    <ClInclude Include="makefile\include.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="CLANNAD ~The Story of Sunohara~.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="DATA\Texture\icon\icon.ico" />
+  </ItemGroup>
+</Project>
